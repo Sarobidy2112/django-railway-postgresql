@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Liste des personnes</title>
+</head>
+<body>
+    <h1>Liste des personnes :</h1>
+    <ul>
+        {% for personne in personnes %}
+            <li>{{ personne.prenom }} {{ personne.nom }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
