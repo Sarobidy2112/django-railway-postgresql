@@ -29,6 +29,10 @@ SECRET_KEY = 'django-insecure-bdazs^5s5^b*ndc=as^)+g+*e+@6e$lb-zt22j&qt6$wzhac*w
 DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
+CSRF_TRUSTED_ORIGINS = [
+    "https://django-railway-postgresql-production.up.railway.app",
+    "http://127.0.0.1:8000"
+]
 
 
 # Application definition
